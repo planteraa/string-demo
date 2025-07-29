@@ -41,7 +41,6 @@ public class StringHandler {
             lastString = curString;
             curString = handleStrategy.StringHandle(curString);
             // print current string process result
-            System.out.println("Current string process result: " + curString);
             log.info("Current string process result: {}", curString);
         }
 
